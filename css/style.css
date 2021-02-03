@@ -1,13 +1,3 @@
-/*------------------------------------------------------------------
-Project:	Appley
-Version:	1.0
-Last change:	April 17 2018
-Primary use:	App Landing Page
--------------------------------------------------------------------*/
-
-/* ==========================================================================
-   Author's custom styles
-========================================================================== */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 /*---------------General style---------------*/
@@ -40,8 +30,8 @@ text-align:center;
 font-family: 'Aileron';
 }
 .dark .row-heading h2 span{
-/*color:#ff569c;*/
-color:#acaede;
+/*color:#ff6a88;*/
+color:#A004C7;
 }
 .row-heading{
 margin-bottom:60px;
@@ -53,7 +43,7 @@ font-family: 'Aileron';
 text-align:center;
 }
 .row-heading h2 span{
-color:#acaede;
+color:#A004C7;
 }
 .row-heading p{
 color:#1d2a37;
@@ -74,8 +64,8 @@ opacity:0.8;
 Navigation Style Start
 ========================================================================== */
 nav.navbar.bootsnav {
-background-color:#000;
-border-bottom: 1px solid #acaede;
+background-color:#f16480;
+border-bottom: 1px solid #A004C7;
 box-shadow:2px 2px 12px 0px rgba(0, 0, 0, 0.1);
 -webkit-box-shadow:2px 2px 12px 0px rgba(0, 0, 0, 0.1);
 -moz-box-shadow:2px 2px 12px 0px rgba(0, 0, 0, 0.1);
@@ -128,7 +118,7 @@ content:"";
 margin-top:5%;
 }
 .banner h1{
-color:#acaede;
+color:#A004C7;
 text-align:left;
 text-shadow:none;
 font-family: 'Aileron';
@@ -178,7 +168,7 @@ font-size: 18px;
 color:#ffffff;
 }
 .banner-btn i{
-color:#acaede;
+color:#A004C7;
 font-size:30px;
 margin-right:10px;
 float:left;
@@ -198,8 +188,8 @@ backface-visibility: hidden;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
 padding:18px 34px;
-background:#acaede;
-border:2px solid #acaede;
+background:#A004C7;
+border:2px solid #A004C7;
 color:#ffffff;
 font-size:24px;
 border-radius:2px;
@@ -227,7 +217,7 @@ padding-right:30px;
 }
 .smart-header h1 {
 font-weight: 400;
-color: #425161;
+color: #A004C7;
 position:relative;
 padding-bottom:10px;
 font-family: 'Aileron';
@@ -241,11 +231,11 @@ content:"";
 display:block;
 height:2px;
 width:110px;
-background:#acaede;
+background:#ffe16b;
 }
 .features-caption span{
 font-size: 3.5em;
-color: #acaede;
+color: #A004C7;
 margin-bottom:10px;
 }
 .features-caption h3 {
@@ -279,7 +269,7 @@ height: 40px;
 float: left;
 font-size: 25px;
 margin-top: 5px;
-color: #acaede;
+color: #A004C7;
 }
 .service-content h4 {
 font-weight: 500;
@@ -314,13 +304,13 @@ padding: 15px 0;
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
 font-size:25px;
-color:#acaede;
+color:#A004C7;
 }
 .active .prc-header h3{
-color:#acaede;
+color:#A004C7;
 }
 .prc-price {
-border: 3px solid #acaede;
+border: 3px solid #A004C7;
 text-align: center;
 width: 130px;
 height: 130px;
@@ -334,7 +324,7 @@ position: absolute;
 top: 15px;
 left:35%;
 font-size:55px;
-color: #acaede;
+color: #A004C7;
 opacity: 0.1;
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
@@ -362,7 +352,7 @@ padding: 0;
 .pricing ul li {
 list-style: none;
 text-align: center;
-color: #acaede;
+color: #A004C7;
 line-height: 2;
 padding: 7px 0;
 font-family: 'Aileron';
@@ -373,12 +363,12 @@ padding: 12px 25px;
 color: #ffffff;
 text-transform: uppercase;
 margin: 20px 0;
-background: #acaede;
+background: #A004C7;
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
 }
 .active button.btn.select-plan {
-background:#acaede;
+background:#A004C7;
 }
 
 /*----------------video section------------*/
@@ -423,13 +413,13 @@ font-size: 40px;
 width: 120px;
 height: 120px;
 border-radius: 50%;
-color: #acaede;
+color: #A004C7;
 line-height: 120px;
 vertical-align: middle;
 transition:all 0.4s;
 }
 a.video-btn:hover i{
-background:#acaede;
+background:#A004C7;
 color:#ffffff;
 }
 /*------------app screen-------------------*/
@@ -469,7 +459,7 @@ padding: 0 20px;
 }
 
 .btn.next i {
-background: #ff569c;
+background: #ff6a88;
 border-radius: 100%;
 display: inline-block;
 float: unset;
@@ -480,10 +470,10 @@ padding: 0;
 color:#ffffff;
 text-align: center;
 width: 32px;
-border:3px solid #ff569c;
+border:3px solid #ff6a88;
 }
 .btn.prev i {
-background: #ff569c;
+background: #ff6a88;
 border-radius: 100%;
 display: inline-block;
 float: unset;
@@ -494,7 +484,7 @@ line-height: 24px;
 padding: 0;
 text-align: center;
 width: 32px;
-border:3px solid #ff569c;
+border:3px solid #ff6a88;
 }
 .owl-controls.clickable{
 display:none;
@@ -504,6 +494,11 @@ visibility:hide;
 display: inline-block;
 zoom: 1;
 display: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 /*---------------contact form----------------*/
 .address{
@@ -516,13 +511,34 @@ background:#fff;
 text-align:center;
 }
 .form-control{
-background:#acaede;
-border:1px solid #e3c6cb;
+background: #ffe16b;
+border:1px solid #ffe16b;
 height:50px;
 box-shadow:none !important;
 border-radius:2px !important;
 display:inline-block;
 color:#ffffff;
+border-radius: 10%;
+}
+
+::-webkit-input-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {
+    color: orange;
+    font: 12px verdana, arial, sans-serif;
 }
 
 .form-bott{
@@ -530,22 +546,24 @@ margin-bottom:15px;
 }
 textarea.form-control{
 height:120px;
+border-radius: 10%;
 }
 .input-group {
 width: 100%;
 }
 .form-control:focus {
-border-color: #acaede;
-box-shadow: 0 1px 1px #acaede inset, 0 0 8px #acaede;
+border-color: #A004C7;
+box-shadow: 0 1px 1px #A004C7 inset, 0 0 8px #A004C7;
 outline: 0 none;
+border-radius: 10px 20px;
 }
 .btn-caption.submit {
 margin-top: 0;
 padding: 1.2em 2.5em;
 border-radius: 1px;
 text-transform: uppercase;
-background: #acaede;
-border: 1px solid #acaede;
+background: #A004C7;
+border: 1px solid #A004C7;
 }
 .jx-contact-info ul {
 margin: 0;
@@ -557,7 +575,7 @@ list-style:none;
 margin:0;
 }
 .jx-contact-info .icon {
-border: 1px solid #ff569c;
+border: 1px solid #ff6a88;
 border-radius: 50%;
 height: 66px;
 margin-top: 4px;
@@ -570,7 +588,7 @@ position: absolute;
 text-align: center;
 }
 .jx-contact-info i {
-color: #ff569c;
+color: #ff6a88;
 padding: 0;
 line-height: 65px !important;
 }
@@ -669,10 +687,10 @@ background:#009ad2;
 background:#009ad2;
 }
 .footer-social-pro li.instagram a{
-background:#acaede;
+background:#A004C7;
 }
 .footer-social-pro li.instagram a i{
-background:#acaede;
+background:#A004C7;
 }
 .footer-social-pro li.pinterest a{
 background:#c12123;
@@ -688,21 +706,21 @@ display:block;
 }
 .footer-navi li{
 padding:0 12px;
-border-right:1px solid #acaede;
+border-right:1px solid #A004C7;
 display:inline-block;
 list-style:none;
 }
 .footer-navi li a {
-color:#acaede;
+color:#A004C7;
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
 }
-.footer-widget-copy p {
-color: #acaede;
+/* .footer-widget-copy p {
+color: #A004C7;
 margin:0;
-}
-.footer-widget-copy p a {
-color: #ff569c;
+} */
+.footer-widget-copy {
+color: #ff6a88;
 }
 
 

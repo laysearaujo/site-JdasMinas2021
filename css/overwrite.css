@@ -218,12 +218,12 @@ border-bottom:1px solid #e4e4e4;
 /* Navbar Inverse
 =================================*/
 nav.navbar.navbar-inverse{
-    background-color: #222;
+    background-color: #ff6a88;
     border-bottom: solid 1px #303030;
 }
 
 nav.navbar.navbar-inverse ul.cart-list > li.total > .btn{
-    border-bottom: solid 1px #222 !important;
+    border-bottom: solid 1px #ff6a88 !important;
 }
 
 nav.navbar.navbar-inverse ul.cart-list > li.total .pull-right{
@@ -236,7 +236,7 @@ nav.navbar.navbar-inverse ul.nav > li > a{
 }
 
 nav.navbar.navbar-inverse ul.nav > li.dropdown > a{
-    background-color: #222;
+    background-color: #ff6a88;
 }
 
 nav.navbar.navbar-inverse li.dropdown ul.dropdown-menu > li > a{
@@ -263,7 +263,7 @@ nav.navbar.navbar-inverse .attr-nav > ul > li > a{
 }
 
 nav.navbar.navbar-inverse .attr-nav > ul > li.dropdown ul.dropdown-menu{
-    background-color: #222;
+    background-color: #ff6a88;
     border-left: solid 1px #303030;
     border-bottom: solid 1px #303030;
     border-right: solid 1px #303030;
@@ -309,17 +309,17 @@ nav.navbar-inverse.navbar-full ul.nav > li > a{
 }
 
 nav.navbar-inverse.navbar-full .navbar-collapse .wrap-full-menu{
-    background-color: #222;
+    background-color: #ff6a88;
 }
 
 nav.navbar-inverse.navbar-full .navbar-toggle{
-    background-color: #222 !important;
+    background-color: #ff6a88 !important;
     color: #6f6f6f;
 }
 
 @media (min-width: 1024px) {
     nav.navbar.navbar-inverse ul.nav .dropdown-menu{
-        background-color: #222 !important;
+        background-color: #ff6a88 !important;
         border-left: solid 1px #303030 !important;
         border-bottom: solid 1px #303030 !important;
         border-right: solid 1px #303030 !important;
@@ -360,7 +360,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
 @media (max-width: 992px)  {
     nav.navbar.navbar-inverse .navbar-toggle{
         color: #eee;
-        background-color: #222 !important;
+        background-color: #ff6a88 !important;
     }
     
     nav.navbar.navbar-inverse .navbar-nav > li > a{
@@ -392,7 +392,7 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
     }
     
     nav.navbar.navbar-inverse.navbar-mobile .navbar-collapse{
-        background-color: #222;
+        background-color: #ff6a88;
     }
 }
 
@@ -414,7 +414,7 @@ top:-100px;
 }
 @media (max-width: 767px)  {
     nav.navbar.navbar-inverse.navbar-mobile ul.nav{
-        border-top: solid 1px #222;
+        border-top: solid 1px #ff6a88;
     }
 	.carousel.slide .carousel-caption{
 	padding:40px 0;
