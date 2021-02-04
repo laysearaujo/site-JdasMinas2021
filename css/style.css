@@ -10,7 +10,8 @@ background:#ffffff;
 font-family: 'Aileron';
 }
 section{
-padding:6.5em 0 4em 0;
+/* padding:6.5em 0 4em 0; */
+padding-top: 10px;
 }
 .dark{
 background:#fff;
@@ -203,23 +204,27 @@ font-family: 'Aileron';
 
 }
 
+.baixo {
+    display: flex;
+    flex-wrap: wrap;
+}
 .row {
 margin-right: 15px;
 margin-left: 15px;
 }
 /*--------------Smart features---------------*/
 .smart-header{
-margin-bottom:100px;
+margin-bottom:50px;
 }
 .features-caption{
-margin-bottom:25px;
-padding-right:30px;
+/* margin-bottom:25px;
+padding-right:30px; */
 }
 .smart-header h1 {
 font-weight: 400;
 color: #A004C7;
 position:relative;
-padding-bottom:10px;
+/* padding-bottom:10px; */
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
 }
@@ -245,7 +250,7 @@ text-transform: uppercase;
 font-family: 'Aileron';
 /*font-family: 'Montserrat', sans-serif;*/
 font-size: 22px;
-margin-bottom:4px;
+/* margin-bottom:4px; */
 }
 .features-caption p {
 color: #5d6c71;
