@@ -8,7 +8,9 @@
   height: 293px;
   width: 600px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  padding-left: 150px;
   position: relative;
 }
 
@@ -19,9 +21,8 @@
 
 .slider img {
   margin: auto;
-  height: 100px;
-  width: 100px;
-  vertical-align: top;
+  height: 300px;
+  width: 300px;
 }
 
 .slider input {
@@ -36,7 +37,7 @@
   height: 10px;
   position: absolute;
   width: 10px;
-  z-index: 10;
+  margin-left: 100px;
 }
 
 .slider li:nth-child(1) label {
