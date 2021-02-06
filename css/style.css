@@ -19,10 +19,13 @@ body {
   background: #ffffff;
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: "Aileron";
+  background-image: url("/img/BACKGROUNG.png");
+  background-size: 1000px;
 }
+
 section {
-    /* padding:6.5em 0 4em 0; */
-    padding-top: 10px;
+  /* padding:6.5em 0 4em 0; */
+  padding-top: 10px;
 }
 .dark {
   background: #fff;
@@ -217,8 +220,8 @@ Banner Style Start
 }
 
 .baixo {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .row {
   margin-right: 15px;
@@ -267,7 +270,7 @@ Banner Style Start
 }
 .features-caption p {
   color: #5d6c71;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.8;
   font-family: "Aileron";
   /*font-family: 'Montserrat', sans-serif;*/
