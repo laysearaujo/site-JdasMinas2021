@@ -4,23 +4,38 @@
 
 /* color: #33195d
   #a004c7
-  #ba9fe4
-  #ff6a88
   #8b3772
   #c16672
   #f6a597
   #ffe16b */
 
-a:hover,
+a:link {
+  color: #ff6a88;
+  text-decoration: none;
+}
+a:visited {
+  color: #a004c7;
+  text-decoration: none;
+}
+a:hover {
+  color: #8b3772;
+  text-decoration: none;
+}
 a:focus {
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
   text-decoration: none;
 }
 body {
   background: #ffffff;
   /*font-family: 'Montserrat', sans-serif;*/
   font-family: "Aileron";
+  /*BACKGROUND*/
   background-image: url("/img/BACKGROUNG.png");
-  background-size: 1000px;
+  background-size: 500px;
+  background-repeat: round;
 }
 
 section {
