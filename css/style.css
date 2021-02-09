@@ -31,14 +31,18 @@ a:active {
 
 body {
   background: #ffffff;
-  /*font-family: 'Montserrat', sans-serif;*/
-  font-family: "Aileron";
+  /*font-family: 'Montserrat', sans-serif;*
+  
   /*BACKGROUND*/
+  font-family: Aileron;
   background-image: url("/img/BACKGROUNG.png");
   background-size: 500px;
   background-repeat: round;
 }
-
+@font-face {
+  font-family: "Aileron";
+  src: url("/fonts/Aileron-Thin.ttf");
+}
 section {
   /* padding:6.5em 0 4em 0; */
   padding-top: 10px;
@@ -75,6 +79,7 @@ section {
 }
 .row-heading h2 span {
   color: #a004c7;
+  font-family: "Aileron";
 }
 .row-heading p {
   color: #1d2a37;
@@ -247,6 +252,7 @@ Banner Style Start
 /*--------------Smart features---------------*/
 .smart-header {
   margin-bottom: 50px;
+  font-family: "Aileron";
 }
 /* .features-caption {
   margin-bottom: 25px;
@@ -268,12 +274,14 @@ Banner Style Start
   display: block;
   height: 2px;
   width: 200px;
+  font-family: "Aileron";
   background: #ffe16b;
 }
 .features-caption span {
   font-size: 3.5em;
   color: #a004c7;
   margin-bottom: 10px;
+  font-family: "Aileron";
 }
 .features-caption h3 {
   font-weight: 500;
