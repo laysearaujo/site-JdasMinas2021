@@ -35,8 +35,8 @@ body {
   
   /*BACKGROUND*/
   font-family: Aileron;
-  background-image: url("/img/BACKGROUNG.png");
-  background-size: 500px;
+  background-image: url("/img/bgsite_Prancheta.png");
+  background-size: 100%;
   background-repeat: round;
 }
 @font-face {

@@ -4,7 +4,7 @@
 if(isset($_POST['email'])) {
 	
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "";
+    $email_to = "gamejamdasminas@gmail.com";
     $email_subject = "[GJM 2020] - GAME JAM DAS MINAS -";
  
     
