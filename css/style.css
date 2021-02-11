@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 /*---------------General style---------------*/
 
 /* color: #33195d
@@ -35,13 +35,13 @@ body {
   
   /*BACKGROUND*/
   font-family: Aileron;
-  background-image: url("/img/bgsite_Prancheta.png");
+  background-image: url('/img/bgsite_Prancheta.png');
   background-size: 100%;
   background-repeat: round;
 }
 @font-face {
-  font-family: "Aileron";
-  src: url("/fonts/Aileron-Thin.ttf");
+  font-family: 'Aileron';
+  src: url('/fonts/Aileron-Thin.ttf');
 }
 section {
   /* padding:6.5em 0 4em 0; */
@@ -62,7 +62,7 @@ section {
   color: #ffffff;
   text-align: center;
   /*font-family: 'Montserrat', sans-serif;*/
-  font-family: "Aileron";
+  font-family: 'Aileron';
 }
 .dark .row-heading h2 span {
   /*color:#ff6a88;*/
@@ -73,26 +73,26 @@ section {
 }
 .row-heading h2 {
   color: #425161;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   text-align: center;
 }
 .row-heading h2 span {
   color: #a004c7;
-  font-family: "Aileron";
+  font-family: 'Aileron';
 }
 .row-heading p {
   color: #1d2a37;
   font-size: 19px;
   text-align: center;
   opacity: 0.8;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .dark .row-heading p {
   color: #ffffff;
   text-align: center;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   opacity: 0.8;
 }
@@ -151,7 +151,7 @@ Banner Style Start
   left: 0;
   right: 0;
   display: block;
-  content: "";
+  content: '';
   /*background:rgba(137,47,217,0.5);*/
 }
 .banner-text {
@@ -161,7 +161,7 @@ Banner Style Start
   color: #a004c7;
   text-align: left;
   text-shadow: none;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   font-weight: 600;
   line-height: 1.3;
@@ -190,13 +190,13 @@ Banner Style Start
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   text-align: center;
 }
 .banner-btn h4 {
   text-align: left;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   display: inline-block;
   margin: 0;
@@ -233,7 +233,7 @@ Banner Style Start
   border-radius: 2px;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .login-btn:hover {
@@ -252,7 +252,7 @@ Banner Style Start
 /*--------------Smart features---------------*/
 .smart-header {
   margin-bottom: 50px;
-  font-family: "Aileron";
+  font-family: 'Aileron';
 }
 /* .features-caption {
   margin-bottom: 25px;
@@ -263,31 +263,31 @@ Banner Style Start
   color: #a004c7;
   position: relative;
   /* padding-bottom: 10px; */
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .smart-header h2:before {
   position: absolute;
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   width: 200px;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   background: #ffe16b;
 }
 .features-caption span {
   font-size: 3.5em;
   color: #a004c7;
   margin-bottom: 10px;
-  font-family: "Aileron";
+  font-family: 'Aileron';
 }
 .features-caption h3 {
   font-weight: 500;
   color: #37484e;
   text-transform: uppercase;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   font-size: 22px;
   /* margin-bottom: 4px; */
@@ -296,7 +296,7 @@ Banner Style Start
   color: #5d6c71;
   font-size: 20px;
   line-height: 1.8;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 
@@ -319,7 +319,7 @@ Banner Style Start
 .service-content h4 {
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   color: #ffffff;
   margin-bottom: 7px;
@@ -328,7 +328,7 @@ Banner Style Start
   line-height: 1.8;
   font-size: 14.4px;
   color: #fff;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 /*---------Pricing Plan---------------*/
@@ -346,7 +346,7 @@ Banner Style Start
   padding: 15px 0;
 }
 .prc-header h3 {
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   font-size: 25px;
   color: #a004c7;
@@ -371,20 +371,20 @@ Banner Style Start
   font-size: 55px;
   color: #a004c7;
   opacity: 0.1;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .prc-price h3 {
   margin-top: 27px;
   color: #485a6d;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   font-size: 38px;
   margin-bottom: 5px;
 }
 .prc-price p {
   color: #485a6d;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   text-transform: uppercase;
   font-size: 15px;
@@ -400,7 +400,7 @@ Banner Style Start
   color: #a004c7;
   line-height: 2;
   padding: 7px 0;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 button.btn.select-plan {
@@ -409,7 +409,7 @@ button.btn.select-plan {
   text-transform: uppercase;
   margin: 20px 0;
   background: #a004c7;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 .active button.btn.select-plan {
@@ -426,7 +426,7 @@ button.btn.select-plan {
 }
 .heading h2 {
   position: relative;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
   margin-bottom: 20px;
   color: #ffffff;
@@ -438,7 +438,7 @@ button.btn.select-plan {
   right: 0;
   top: 0;
   bottom: 0;
-  content: "";
+  content: '';
   background: rgba(29, 42, 55, 0.8);
 }
 a.video-btn {
@@ -691,7 +691,7 @@ footer {
   display: block;
 }
 .footer-social-pro li {
-  margin: -100px -50px;
+  margin: -100px -60px;
   display: inline-block;
   list-style: none;
 }
@@ -730,6 +730,7 @@ footer {
 .footer-social-pro li.twitter a i {
   background: #009ad2;
 }
+
 .footer-social-pro li.instagram a {
   background: #a004c7;
 }
@@ -756,7 +757,7 @@ footer {
 }
 .footer-navi li a {
   color: #a004c7;
-  font-family: "Aileron";
+  font-family: 'Aileron';
   /*font-family: 'Montserrat', sans-serif;*/
 }
 /* .footer-widget-copy p {
@@ -835,11 +836,11 @@ margin:0;
     margin: 0 -15px;
   }
   @font-face {
-    font-family: "Aileron";
-    src: url("../fonts/Aileron-Black.otf");
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Black.otf');
   }
 
   .Aileron-font {
-    font-family: "Aileron";
+    font-family: 'Aileron';
   }
 }
